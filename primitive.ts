@@ -13,3 +13,11 @@ let x = undefined;
  x = ' five '; 
  
 //when i do not assign , it indicates that  the data type is is any type .
+
+//  in java script 
+
+// if i  take a variable like,
+
+//let userNa = " rayhan";
+
+//userNa = 5; // it will not throw an error because javascript is a dynamic language and it does not have type checking.
