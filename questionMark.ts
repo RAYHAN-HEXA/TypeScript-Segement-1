@@ -32,3 +32,38 @@ const isAuthenticated = '' ;
  
  console.log({resultWithNulish},{resultWithTernary});
  
+ // optional chianing 
+
+ const User : {
+    address : {
+        city : string;
+        town : string;
+        postalcode?: string
+    }
+ } =  {
+address: {
+    city : 'Dhaka',
+    town : 'banani',
+
+}
+ }
+
+ const postalcode = User.address.postalcode;
+ console.log(postalcode); 
+ // optional chianing 
+
+ const User : {
+    address : {
+        city : string;
+        town : string;
+        postalcode?: string
+    }
+ } =  {
+address: {
+    city : 'Dhaka',
+    town : 'banani',
+
+}
+ }
+ const postalcode = User.address.postalcode;
+ console.log(postalcode);
