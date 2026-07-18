@@ -6,17 +6,18 @@ let username: string = " rayhan";
 // we must assing a value to the variable of type string, otherwise it will throw an error
 // typescript detecs error before run time.
 
-let isadmin : boolean = true;
+let isadmin: boolean = true;
 isadmin = false;
+
 let x = undefined;
- x = 5; 
- x = ' five '; 
- 
-//when i do not assign , it indicates that  the data type is is any type .
+x = 5; 
+x = ' five '; 
+
+//when i do not assign , it indicates that the data type is any type .
 
 //  in java script 
 
-// if i  take a variable like,
+// if i take a variable like,
 
 //let userNa = " rayhan";
 
