@@ -48,11 +48,11 @@ address: {
 }
  }
 
- const postalcode = User.address.postalcode;
- console.log(postalcode); 
+ const Postalcode = User.address.postalcode;
+ console.log(Postalcode); 
  // optional chianing 
 
- const User : {
+ const Usser : {
     address : {
         city : string;
         town : string;
