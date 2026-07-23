@@ -45,10 +45,12 @@ const  coordinates2 : Coordinates <number, number> = [20,30]
 
 // how to use generic object 
 
-const userList :GenericArray<{
-    name :string,
+type User = {
+name :string,
     age : number
-}>  = [
+}
+
+const userList :GenericArray<User>  = [
     {
         name : "Rayhan",
         age : 22
